@@ -1,0 +1,29 @@
+{
+  "name": "baudio-live",
+  "version": "1.0.0",
+  "description": "CLI for live updating baudio music",
+  "bin": {
+    "baudio-live": "./baudio-live.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/finnp/baudio-live.git"
+  },
+  "keywords": [
+    "music",
+    "live",
+    "hotpatch"
+  ],
+  "author": "Finn Pauls",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/finnp/baudio-live/issues"
+  },
+  "homepage": "https://github.com/finnp/baudio-live",
+  "dependencies": {
+    "baudio": "^2.1.2"
+  }
+}
