@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/finnp/baudio-live",
   "dependencies": {
-    "baudio": "^2.1.2"
+    "baudio": "^2.1.2",
+    "minimist": "^1.1.0"
   }
 }
