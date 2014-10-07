@@ -12,7 +12,9 @@ fs.watchFile(musicFilePath, { interval: 1 },function () {
   console.log('Updated.')
   delete require.cache[musicFilePath]
   try {
-    input._fn = require(musicFilePath)
+    var load = require(musicFilePath)
+    load(0) // rough check for errors
+    input._fn = load
   } catch(e) { console.error(e) }
 })
 

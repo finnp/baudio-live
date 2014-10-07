@@ -20,3 +20,8 @@ baudio-live music.js
 ```
 
 It will output the music and update it if you are changing that file.
+
+You can save the sounds with the `-o` option:
+```
+baudio-live music.js -o awesome.wav
+```
